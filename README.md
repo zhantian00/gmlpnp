@@ -2,7 +2,7 @@ C++ implementation of Generalized Maximum Likelihood Estimation for Perspective-
 
 To build our demo:
 
-Install the python environment
+Install python 3.9 and
 
 ```bash
 pip install -r requirements.txt
