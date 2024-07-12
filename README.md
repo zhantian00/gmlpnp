@@ -6,6 +6,9 @@ Install python 3.9 and
 
 ```bash
 pip install -r requirements.txt
+
+git submodule init
+git submodule update
 ```
 
 Build [g2o](https://github.com/RainerKuemmerle/g2o), [opengv](https://laurentkneip.github.io/opengv/page_installation.html#sec_installation_2) in the `/thirdparty`. Make sure to use the same version of g2o ([commit 95a177](https://github.com/RainerKuemmerle/g2o/tree/95a177f22cc1aba160a5659d83a9e3ad95ed5c7a)).
