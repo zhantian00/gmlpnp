@@ -1,0 +1,7 @@
+IMAGE_SIZE: [640, 480]
+CAMERA_INTRINSICS: [[800, 0, 0],
+                    [0, 800, 0],
+                    [0, 0, 1]]
+# the 3d points range of x,y,z axis in camera coordinate
+POINT_RANGE: [[-2, -2, 4], # x_min, y_min, z_min
+              [2, 2, 8]] # x_max, y_max, z_max
